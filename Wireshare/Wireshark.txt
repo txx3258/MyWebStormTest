@@ -2,3 +2,55 @@
 //查找SYN报文
 tcp.stream eq 3000
 tcp.flags.syn==1
+
+
+//java虚拟机内存
+jps  //查看本地运行着几个java程序
+jinfo -opt pid //可以输出并修改运行中java程序中的vm参数
+jmap -histo pid//打印出某个java进程内存中的所有对象情况，包括产生哪些对象及数量
+
+jstat  //极强的监视VM内存工具.可以用来监视VM内存的各种堆和非堆得大小及其内存使用量
+
+jstat -class pid:显示加载class的数量，及所占空间等信息
+
+jstat -compiler pid:显示VM实时编译的数量等信息
+
+jstat -gclold pid:old对象的信息
+jstat -util pid
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
