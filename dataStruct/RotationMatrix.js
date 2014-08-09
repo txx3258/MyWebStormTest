@@ -4,17 +4,17 @@
 var RotationMatrix=function(){
     var oThis=this;
     //矩阵的9个值
-    oThis.m11=;
-    oThis.m12=;
-    oThis.m13=;
+    oThis.m11="";
+    oThis.m12="";
+    oThis.m13="";
 
-    oThis.m21=;
-    oThis.m22=;
-    oThis.m23=;
+    oThis.m21="";
+    oThis.m22="";
+    oThis.m23="";
 
-    oThis.m31=;
-    oThis.m32=;
-    oThis.m33=;
+    oThis.m31="";;
+    oThis.m32="";
+    oThis.m33="";;
 
     //置为单位矩阵
     oThis.identity=function(){
