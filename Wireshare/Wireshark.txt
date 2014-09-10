@@ -1,9 +1,6 @@
 //网址:http://blog.jobbole.com/70919/
 //查找SYN报文
-tcp.stream eq 3000
 tcp.flags.syn==1
-
-
 //java虚拟机内存
 jps  //查看本地运行着几个java程序
 jinfo -opt pid //可以输出并修改运行中java程序中的vm参数
@@ -17,40 +14,3 @@ jstat -compiler pid:显示VM实时编译的数量等信息
 
 jstat -gclold pid:old对象的信息
 jstat -util pid
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
